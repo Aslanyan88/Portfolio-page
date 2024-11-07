@@ -1,43 +1,68 @@
-
 import { motion } from 'framer-motion';
 import Logos from './logos';
 
 const skills = [
-  { name: 'HTML5', logo: Logos.HTML5 },
-  { name: 'Node.js', logo: Logos.NodeJS },
-  { name: 'Vite', logo: Logos.Vite },
-  { name: 'CSS3', logo: Logos.CSS3 },
+  // Programming Languages
+  { name: 'JavaScript', logo: Logos.javascript },
+  { name: 'TypeScript', logo: Logos.TypeScript },
+  { name: 'Python', logo: Logos.Python },
+  { name: 'PHP', logo: Logos.PHP },
+  { name: 'SQL', logo: Logos.SQL },
+
+  // Frameworks and Libraries
   { name: 'React Hooks', logo: Logos.ReactHooks },
   { name: 'Redux Toolkit', logo: Logos.ReduxToolkit },
-  { name: 'MongoDB', logo: Logos.MongoDB },
-  { name: 'Tailwind CSS', logo: Logos.TailwindCSS },
-  { name: 'SASS', logo: Logos.SASS },
-  { name: 'Python', logo: Logos.Python },
-  { name: 'Jest', logo: Logos.Jest },
+  { name: 'React Query', logo: Logos.ReactQuery },
+  { name: 'Node.js', logo: Logos.NodeJS },
+  { name: 'Svelte', logo: Logos.Svelte },
+  { name: 'GraphQL', logo: Logos.GraphQL },
+  { name: 'Chakra UI', logo: Logos.ChakraUI },
+  { name: 'Axios', logo: Logos.Axios },
+
+  // Tools and Build Systems
+  { name: 'Vite', logo: Logos.Vite },
+  { name: 'Webpack', logo: Logos.Webpack },
+  { name: 'ESBuild', logo: Logos.ESBuild },
   { name: 'Docker', logo: Logos.Docker },
+  { name: 'Git', logo: Logos.Git },
   { name: 'GitHub', logo: Logos.GitHub },
   { name: 'GitLab', logo: Logos.GitLab },
-  { name: 'REST API', logo: Logos.RESTAPI },
-  { name: 'TypeScript', logo: Logos.TypeScript },
-  { name: 'Prettier', logo: Logos.Prettier },
-  { name: 'Scrum', logo: Logos.Scrum },
   { name: 'Microsoft Power Automate', logo: Logos.MicrosoftPowerAutomate },
+  { name: 'Go High-Level App', logo: Logos.GoHighLevelApp },
+
+  // Testing
+  { name: 'Jest', logo: Logos.Jest },
+  { name: 'Cypress', logo: Logos.Cypress },
+  { name: 'Browser Automation', logo: Logos.BrowserAutomation },
+
+  // Styling
+  { name: 'CSS3', logo: Logos.CSS3 },
+  { name: 'SASS', logo: Logos.SASS },
+  { name: 'Tailwind CSS', logo: Logos.TailwindCSS },
+  { name: 'Prettier', logo: Logos.Prettier },
+  { name: 'Framer Motion', logo: Logos.FramerMotion },
+  { name: 'ESLint', logo: Logos.ESLint },
+
+  // Databases
+  { name: 'MongoDB', logo: Logos.MongoDB },
+  { name: 'Firebase', logo: Logos.Firebase },
+
+  // Agile Practices
+  { name: 'Scrum', logo: Logos.Scrum },
+  { name: 'Agile', logo: Logos.Agile },
+
+  // Other
+  { name: 'HTML5', logo: Logos.HTML5 },
+  { name: 'REST API', logo: Logos.RESTAPI },
   { name: 'Web API', logo: Logos.WebAPI },
-  { name: 'Webpack', logo: Logos.Webpack },
-  { name: 'Cypress ', logo: Logos.Cypress},
-  { name: 'Framer Motion', logo: Logos.FramerMotion},
-  { name: 'GraphQL', logo: Logos.GraphQL},
-  { name: 'Svelte ', logo: Logos.Svelte },
-  { name: 'ESBuild ', logo: Logos.ESBuild },
+  { name: 'Data Scraping', logo: Logos.DataScraping },
 ];
-
-
 const Skills = () => {
   return (
     <section id="skills" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">My Skills</h2>
-        <div className="flex flex-wrap justify-center items-center gap-6">
+        <div className="flex flex-wrap justify-center items-center gap-8">
           {skills.map((skill, index) => (
             <motion.div
               key={index}

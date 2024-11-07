@@ -12,7 +12,6 @@ import GitHub from '../assets/skills/GitHub.png';
 import GitLab from '../assets/skills/GitLab.png';
 import GoHighLevelApp from '../assets/skills/Go-High-Level App.png';
 import HTML5 from '../assets/skills/HTML5.png';
-import JavaScript from '../assets/skills/JavaScript.png';
 import Jest from '../assets/skills/Jest.png';
 import MicrosoftPowerAutomate from '../assets/skills/MicrosoftPowerAutomate.jpeg';
 import MongoDB from '../assets/skills/MongoDB.png';
@@ -37,11 +36,13 @@ import FramerMotion from '../assets/skills/motion.png';
 import GraphQL from '../assets/skills/GraphQL.png';
 import Svelte from '../assets/skills/Svelte.png';
 import ESBuild from '../assets/skills/ESBuild.png';
+import javascript from '../assets/skills/javas-ctript.png';
 
 
 
 
 const Logos = {
+  javascript,
   GraphQL,
   Svelte,
   ESBuild,
@@ -61,7 +62,6 @@ const Logos = {
   GitLab,
   GoHighLevelApp,
   HTML5,
-  JavaScript,
   Jest,
   MicrosoftPowerAutomate,
   MongoDB,
