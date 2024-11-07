@@ -39,14 +39,6 @@ const Hero = () => {
           delaySpeed={1000}
           className="text-xl md:text-2xl"
         />
-        <div className="mt-8">
-          <a
-            href="github"
-            className="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition"
-          >
-            View My Work
-          </a>
-        </div>
       </motion.div>
     </section>
   );
